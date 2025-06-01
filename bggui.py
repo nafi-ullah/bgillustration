@@ -123,6 +123,8 @@ class GUI:
             img_tk = ImageTk.PhotoImage(img)
             self.image_label.configure(image=img_tk)
             self.image_label.image = img_tk
+            # Store the last generated image for saving
+            self.last_generated_image = img
         except Exception as e:
             messagebox.showerror("Generation Error", str(e))
 
@@ -132,7 +134,13 @@ class GUI:
                 f.write(f"angle_id: {self.angle_id.get()}\n")
                 for key, var in self.entries.items():
                     f.write(f"{key}: {var.get()}\n")
-            messagebox.showinfo("Saved", "Values saved to ./currentValues.txt")
+            # Save the last generated image if available
+            if hasattr(self, "last_generated_image") and self.last_generated_image is not None:
+                output_dir = "./outputs/backgrounds"
+                os.makedirs(output_dir, exist_ok=True)
+                output_path = os.path.join(output_dir, "background_output.png")
+                self.last_generated_image.save(output_path)
+            messagebox.showinfo("Saved", "Values saved to ./currentValues.txt and image saved to ./output/background_output.png")
         except Exception as e:
             messagebox.showerror("Save Error", str(e))
 
