@@ -4,12 +4,11 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 from io import BytesIO
 import os
-from coordinates import getCoordinates
+from coordinates import getCoordinates, getCarParameters, padding_car, combine_car_with_bg
 from features.functionalites.backgroundoperations.addbackground.addwallinitiate import addBackgroundInitiate
 
-
 # Load vehicle image once
-with open("assets/cars/images2_original.jpg", "rb") as f:
+with open("assets/cars/image2_original.png", "rb") as f:
     detected_vehicle = BytesIO(f.read())
 
 class GUI:
@@ -19,8 +18,10 @@ class GUI:
         self.root.geometry("1400x800")
 
         # Initialize default angle_id and coordinates
+        self.showCar = tk.BooleanVar(value=False)
         self.angle_id = tk.StringVar(value="2")
         self.normalCoordinates = getCoordinates(self.angle_id.get(), detected_vehicle)
+        self.carParameters = getCarParameters(self.angle_id.get(), detected_vehicle)
 
         self.create_widgets()
 
@@ -33,6 +34,7 @@ class GUI:
         self.right_frame.pack(side='right', fill='both', expand=True)
 
         self.entries = {}
+        self.carEntries = {}
         row = 0
 
         # Angle ID Input
@@ -51,9 +53,29 @@ class GUI:
             self.entries[key] = val_str
             row += 1
 
+        for key in self.carParameters:
+            ttk.Label(self.left_frame, text=key).grid(row=row, column=0, sticky="w")
+            val_str = tk.StringVar(value=str(self.carParameters[key]))
+            entry = ttk.Entry(self.left_frame, textvariable=val_str, width=25)
+            entry.grid(row=row, column=1)
+            self.carEntries[key] = val_str
+            row += 1
+
         # Buttons
         ttk.Button(self.left_frame, text="Generate", command=self.generate_background).grid(row=row, column=0, pady=10)
-        ttk.Button(self.left_frame, text="Save", command=self.save_values).grid(row=row, column=1, pady=10)
+        # Save button
+        ttk.Button(self.left_frame, text="Save", command=self.save_values).grid(row=row, column=1, pady=8)
+        row += 1
+
+        # Show Car checkbox
+        ttk.Checkbutton(
+            self.left_frame,
+            text="Show Car",
+            variable=self.showCar,
+            onvalue=True,
+            offvalue=False
+        ).grid(row=row, column=1, pady=8)
+        row += 1
 
         # Image display area
         self.image_label = ttk.Label(self.right_frame)
@@ -118,6 +140,21 @@ class GUI:
                 logo_position="auto"
             )
 
+            print(f"show car value is {type(self.showCar.get())}")
+
+            if self.showCar.get() == True:
+                carCoords = {key: eval(self.carEntries[key].get()) for key in self.carEntries}
+                print(f"caar coordinates is {carCoords}")
+                detected_vehicle.seek(0)
+                getCar = padding_car(carCoords, detected_vehicle)
+                print(f"type of get car {type(getCar)}")
+                print(f"type of get background {type(background)}")
+                getCar.seek(0)
+                background.seek(0)
+                background = combine_car_with_bg(background, getCar, carCoords["position"])
+                background.seek(0)
+                print(f"type of get background new {type(background)}")
+
             img = Image.open(background)
             img = img.resize((1000, 700))  # Resize for display
             img_tk = ImageTk.PhotoImage(img)
@@ -128,6 +165,11 @@ class GUI:
         except Exception as e:
             messagebox.showerror("Generation Error", str(e))
 
+
+
+
+
+        
     def save_values(self):
         try:
             with open("./currentValues.txt", "w") as f:
