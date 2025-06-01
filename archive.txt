@@ -1,0 +1,11 @@
+leftface straight:
+floor_left_top: (-2702, 1066)
+floor_left_bottom: (800, 2500)
+floor_right_bottom: (3000, 1020)
+rwall_top_left: (1480, 90)
+rwall_right_bottom: (1920, 773)
+rwall_top_right: (1920, 29)
+lwall_left_top: (0, 0)
+lwall_left_bottom: (0, 830)
+canvas_middle_ref: (1480, 673)
+ceiling_top: (1920, -700)

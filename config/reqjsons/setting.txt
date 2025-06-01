@@ -1,0 +1,15 @@
+[{'user_id': 1, 
+'settings': [
+	{'setting_id': 1, 'user_preset_id': 1, 'name': 'Default Crop', 'value': 'fullcrop'}, 
+	{'setting_id': 2, 'user_preset_id': 1, 'name': 'Background Type', 'value': 'photo_box'}, 
+	{'setting_id': 3, 'user_preset_id': 1, 'name': 'Default Background', 'value': 'photo-box_1.png'}, 
+	{'setting_id': 4, 'user_preset_id': 1, 'name': 'Default Logo', 'value': 'image_original.jpg'}, 
+	{'setting_id': 5, 'user_preset_id': 1, 'name': 'License Plate Image', 'value': None}, 
+	{'setting_id': 6, 'user_preset_id': 1, 'name': 'Interior Crop Type', 'value': 'full_crop'}, 
+	{'setting_id': 7, 'user_preset_id': 1, 'name': 'Blur', 'value': 'extreme_blur'}, 
+	{'setting_id': 9, 'user_preset_id': 1, 'name': 'Logo Position', 'value': 'auto'}, 
+	{'setting_id': 10, 'user_preset_id': 1, 'name': 'Camera Sensor Sensitivity', 'value': 'medium'}]}
+	
+]
+
+

@@ -1,0 +1,281 @@
+{
+    "global_user_setting_data": [
+        {
+            "user_id": 2,
+            "settings": [
+                {
+                    "setting_id": 1,
+                    "user_preset_id": 2,
+                    "name": "Default Crop",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 2,
+                    "user_preset_id": 2,
+                    "name": "Background Type",
+                    "value": "photo_box"
+                },
+                {
+                    "setting_id": 3,
+                    "user_preset_id": 2,
+                    "name": "Default Background",
+                    "value": "user/EQ3ReJMBj8J1Kalyz8DG/bg_type/photo_box/processed/photo_box_7.jpg"
+                },
+                {
+                    "setting_id": 4,
+                    "user_preset_id": 2,
+                    "name": "Default Logo",
+                    "value": null
+                },
+                {
+                    "setting_id": 5,
+                    "user_preset_id": 2,
+                    "name": "License Plate Image",
+                    "value": "user/EQ3ReJMBj8J1Kalyz8DG/defaults/license_plate_image/af6d6cfd-ed9b-4791-95a6-d2d9ff1fd46d.png"
+                },
+                {
+                    "setting_id": 6,
+                    "user_preset_id": 2,
+                    "name": "Interior Crop Type",
+                    "value": "blur_crop"
+                },
+                {
+                    "setting_id": 7,
+                    "user_preset_id": 2,
+                    "name": "Blur",
+                    "value": "high_blur"
+                },
+                {
+                    "setting_id": 9,
+                    "user_preset_id": 2,
+                    "name": "Camera Sensor Sensitivity",
+                    "value": "auto"
+                }
+            ]
+        },
+        {
+            "user_id": 5,
+            "settings": [
+                {
+                    "setting_id": 1,
+                    "user_preset_id": 5,
+                    "name": "Default Crop",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 2,
+                    "user_preset_id": 5,
+                    "name": "Background Type",
+                    "value": "photo_box"
+                },
+                {
+                    "setting_id": 3,
+                    "user_preset_id": 5,
+                    "name": "Default Background",
+                    "value": "system/defaults/bg_type/photo_box/photo_box_9.png"
+                },
+                {
+                    "setting_id": 4,
+                    "user_preset_id": 5,
+                    "name": "Default Logo",
+                    "value": "user/RAeyGlWE41kqMgOojbP1/defaults/logo/78db1e4d-60ff-4041-8888-4cb2b4852aa4-removebg-preview.png"
+                },
+                {
+                    "setting_id": 5,
+                    "user_preset_id": 5,
+                    "name": "License Plate Image",
+                    "value": "user/RAeyGlWE41kqMgOojbP1/defaults/license_plate_image/af6d6cfd-ed9b-4791-95a6-d2d9ff1fd46d.png"
+                },
+                {
+                    "setting_id": 6,
+                    "user_preset_id": 5,
+                    "name": "Interior Crop Type",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 7,
+                    "user_preset_id": 5,
+                    "name": "Blur",
+                    "value": "extreme_blur"
+                },
+                {
+                    "setting_id": 9,
+                    "user_preset_id": 5,
+                    "name": "Camera Sensor Sensitivity",
+                    "value": "auto"
+                }
+            ]
+        },
+        {
+            "user_id": 12,
+            "settings": [
+                {
+                    "setting_id": 1,
+                    "user_preset_id": 87,
+                    "name": "Default Crop",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 2,
+                    "user_preset_id": 87,
+                    "name": "Background Type",
+                    "value": "photo_box"
+                },
+                {
+                    "setting_id": 3,
+                    "user_preset_id": 87,
+                    "name": "Default Background",
+                    "value": "system/defaults/bg_type/photo_box/photo_box_9.png"
+                },
+                {
+                    "setting_id": 4,
+                    "user_preset_id": 87,
+                    "name": "Default Logo",
+                    "value": "user/ZL8ovka5jre4KJg6bPyY/defaults/logo/image_1745237020878_original.png"
+                },
+                {
+                    "setting_id": 5,
+                    "user_preset_id": 87,
+                    "name": "License Plate Image",
+                    "value": "user/ZL8ovka5jre4KJg6bPyY/defaults/license_plate_image/image_1745237090580_original.jpg"
+                },
+                {
+                    "setting_id": 6,
+                    "user_preset_id": 87,
+                    "name": "Interior Crop Type",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 7,
+                    "user_preset_id": 87,
+                    "name": "Blur",
+                    "value": "medium_blur"
+                },
+                {
+                    "setting_id": 9,
+                    "user_preset_id": 87,
+                    "name": "Camera Sensor Sensitivity",
+                    "value": "off"
+                }
+            ]
+        },
+        {
+            "user_id": 7,
+            "settings": [
+                {
+                    "setting_id": 1,
+                    "user_preset_id": 142,
+                    "name": "Default Crop",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 2,
+                    "user_preset_id": 142,
+                    "name": "Background Type",
+                    "value": "photo_box"
+                },
+                {
+                    "setting_id": 3,
+                    "user_preset_id": 142,
+                    "name": "Default Background",
+                    "value": "system/defaults/bg_type/photo_box/photo_box_1.jpg"
+                },
+                {
+                    "setting_id": 4,
+                    "user_preset_id": 142,
+                    "name": "Default Logo",
+                    "value": "user/ojaJpMg5qY74ldAwkV1y/defaults/logo/Artboard 47.png"
+                },
+                {
+                    "setting_id": 5,
+                    "user_preset_id": 142,
+                    "name": "License Plate Image",
+                    "value": "user/ojaJpMg5qY74ldAwkV1y/defaults/license_plate_image/Artboard 51-100.jpg"
+                },
+                {
+                    "setting_id": 6,
+                    "user_preset_id": 142,
+                    "name": "Interior Crop Type",
+                    "value": "blur_crop"
+                },
+                {
+                    "setting_id": 7,
+                    "user_preset_id": 142,
+                    "name": "Blur",
+                    "value": "high_blur"
+                },
+                {
+                    "setting_id": 8,
+                    "user_preset_id": 142,
+                    "name": "Logo Position",
+                    "value": "auto"
+                },
+                {
+                    "setting_id": 9,
+                    "user_preset_id": 142,
+                    "name": "Camera Sensor Sensitivity",
+                    "value": "off"
+                }
+            ]
+        },
+        {
+            "user_id": 21,
+            "settings": [
+                {
+                    "setting_id": 1,
+                    "user_preset_id": 167,
+                    "name": "Default Crop",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 2,
+                    "user_preset_id": 167,
+                    "name": "Background Type",
+                    "value": "photo_box"
+                },
+                {
+                    "setting_id": 3,
+                    "user_preset_id": 167,
+                    "name": "Default Background",
+                    "value": "system/defaults/bg_type/photo_box/photo_box_7.png"
+                },
+                {
+                    "setting_id": 4,
+                    "user_preset_id": 167,
+                    "name": "Default Logo",
+                    "value": "user/NlGPAVYLXPm4Qk36OEb5/defaults/logo/acn_logo.png"
+                },
+                {
+                    "setting_id": 5,
+                    "user_preset_id": 167,
+                    "name": "License Plate Image",
+                    "value": "user/NlGPAVYLXPm4Qk36OEb5/defaults/license_plate_image/Untitled design (2).png"
+                },
+                {
+                    "setting_id": 6,
+                    "user_preset_id": 167,
+                    "name": "Interior Crop Type",
+                    "value": "full_crop"
+                },
+                {
+                    "setting_id": 7,
+                    "user_preset_id": 167,
+                    "name": "Blur",
+                    "value": "extreme_blur"
+                },
+                {
+                    "setting_id": 8,
+                    "user_preset_id": 167,
+                    "name": "Logo Position",
+                    "value": "auto"
+                },
+                {
+                    "setting_id": 9,
+                    "user_preset_id": 167,
+                    "name": "Camera Sensor Sensitivity",
+                    "value": "medium"
+                }
+            ]
+        }
+    ]
+}

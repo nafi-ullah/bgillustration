@@ -1,0 +1,250 @@
+{
+	"id": 1,
+	"vehicle_id": 1,
+	"features": [
+		{
+			"catalogue_id": 1,
+			"id": 1,
+			"feature_id": 1,
+			"value": "true",
+			"feature": {
+				"id": 1,
+				"name": "Cutting",
+				"description": "Cutting",
+				"type": "Processing",
+				"binds": null
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 2,
+			"feature_id": 2,
+			"value": "true",
+			"feature": {
+				"id": 2,
+				"name": "License Plate Blur",
+				"description": "License Plate Blur",
+				"type": "Processing",
+				"binds": 3
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 3,
+			"feature_id": 3,
+			"value": "false",
+			"feature": {
+				"id": 3,
+				"name": "License Plate Image",
+				"description": "License Plate Image",
+				"type": "Processing",
+				"binds": 2
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 4,
+			"feature_id": 4,
+			"value": "true",
+			"feature": {
+				"id": 4,
+				"name": "Polishing",
+				"description": "Polishing",
+				"type": "Processing",
+				"binds": null
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 5,
+			"feature_id": 5,
+			"value": "true",
+			"feature": {
+				"id": 5,
+				"name": "Rim Polishing",
+				"description": "Rim Polishing",
+				"type": "Processing",
+				"binds": null
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 6,
+			"feature_id": 6,
+			"value": "false",
+			"feature": {
+				"id": 6,
+				"name": "Reflective Floor",
+				"description": "Reflective Floor",
+				"type": "Processing",
+				"binds": 7
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 7,
+			"feature_id": 7,
+			"value": "true",
+			"feature": {
+				"id": 7,
+				"name": "Car Reflection",
+				"description": "Car Reflection",
+				"type": "Processing",
+				"binds": 6
+			}
+		},
+		{
+			"catalogue_id": 1,
+			"id": 8,
+			"feature_id": 8,
+			"value": "false",
+			"feature": {
+				"id": 8,
+				"name": "Platform 360",
+				"description": "Platform 360",
+				"type": "Processing",
+				"binds": null
+			}
+		}
+	],
+	"uploads": [],
+	"vehicle": {
+		"id": 1,
+		"user_id": 1,
+		"user": {
+			"id": 1,
+			"user_presets": [
+				{
+					"user_id": 1,
+					"id": 1,
+					"name": "Default Preset",
+					"description": "Automatically generated preset with default angles, features, and settings.",
+					"status": 1,
+					"preset_settings": [
+						{
+							"id": 1,
+							"user_preset_id": 1,
+							"setting_id": 1,
+							"value": "fullcrop",
+							"setting": {
+								"id": 1,
+								"name": "Default Crop",
+								"description": "Default Crop",
+								"type": "Background Setup"
+							}
+						},
+						{
+							"id": 2,
+							"user_preset_id": 1,
+							"setting_id": 2,
+							"value": "photobox",
+							"setting": {
+								"id": 2,
+								"name": "Background Type",
+								"description": "Background Type",
+								"type": "Background Setup"
+							}
+						},
+						{
+							"id": 3,
+							"user_preset_id": 1,
+							"setting_id": 3,
+							"value": "photo-box_1.png",
+							"setting": {
+								"id": 3,
+								"name": "Default Background",
+								"description": "Default Background",
+								"type": "Background Setup"
+							}
+						},
+						{
+							"id": 4,
+							"user_preset_id": 1,
+							"setting_id": 4,
+							"value": null,
+							"setting": {
+								"id": 4,
+								"name": "Default Logo",
+								"description": "Default Logo",
+								"type": "Processing"
+							}
+						},
+						{
+							"id": 5,
+							"user_preset_id": 1,
+							"setting_id": 5,
+							"value": null,
+							"setting": {
+								"id": 5,
+								"name": "License Plate Image",
+								"description": "License Plate Image",
+								"type": "Processing"
+							}
+						},
+						{
+							"id": 6,
+							"user_preset_id": 1,
+							"setting_id": 6,
+							"value": "fullcrop",
+							"setting": {
+								"id": 6,
+								"name": "Interior Crop Type",
+								"description": "Interior Crop Type",
+								"type": "Processing"
+							}
+						},
+						{
+							"id": 7,
+							"user_preset_id": 1,
+							"setting_id": 7,
+							"value": "extremeblur",
+							"setting": {
+								"id": 7,
+								"name": "Blur",
+								"description": "Blur",
+								"type": "Processing"
+							}
+						},
+						{
+							"id": 8,
+							"user_preset_id": 1,
+							"setting_id": 9,
+							"value": "auto",
+							"setting": {
+								"id": 9,
+								"name": "Logo Position",
+								"description": "Logo Position",
+								"type": "Processing"
+							}
+						},
+						{
+							"id": 9,
+							"user_preset_id": 1,
+							"setting_id": 10,
+							"value": "medium",
+							"setting": {
+								"id": 10,
+								"name": "Camera Sensor Sensitivity",
+								"description": "Camera Sensor Sensitivity",
+								"type": "Processing"
+							}
+						}
+					]
+				}
+			],
+			"user_settings": [{
+				"user_id": 1,
+				"setting_id": 4,
+				"value": "image_original.jpg",
+				"setting": {
+					"id": 4,
+					"name": "Default Logo",
+					"description": "Default Logo",
+					"type": "Processing"
+				}
+			}]
+		}
+	}
+}
+
+

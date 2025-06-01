@@ -1,0 +1,322 @@
+{
+    "id": 1020,
+    "features": [
+        {
+            "catalogue_id": 1020,
+            "id": 1,
+            "feature_id": 2,
+            "value": "false",
+            "feature": {
+                "id": 2,
+                "name": "License Plate Blur",
+                "description": "License Plate Blur",
+                "type": "Processing",
+                "binds": 3
+            }
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 2,
+            "feature_id": 1,
+            "value": "false",
+            "feature": {
+                "id": 1,
+                "name": "Cutting",
+                "description": "Cutting",
+                "type": "Processing",
+                "binds": null
+            }
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 3,
+            "feature_id": 3,
+            "value": "false",
+            "feature": {
+                "id": 3,
+                "name": "License Plate Image",
+                "description": "License Plate Image",
+                "type": "Processing",
+                "binds": null
+            }
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 4,
+            "feature_id": 5,
+            "value": "false",
+            "feature": {
+                "id": 5,
+                "name": "Rim Polishing",
+                "description": "Rim Polishing",
+                "type": "Processing",
+                "binds": null
+            }
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 5,
+            "feature_id": 6,
+            "value": "true",
+            "feature": {
+                "id": 6,
+                "name": "Reflective Floor",
+                "description": "Reflective Floor",
+                "type": "Processing",
+                "binds": null
+            }
+            
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 6,
+            "feature_id": 7,
+            "value": "true",
+            "feature": {
+                "id": 6,
+                "name": "Car Reflection",
+                "description": "Car Reflection",
+                "type": "Processing",
+                "binds": null
+            }
+            
+        }
+    ],
+    "uploads": [
+        {
+            "catalogue_id": 1020,
+            "id": 1,
+            "angle_id": 1,
+            "filename": "image01_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 2,
+            "angle_id": 2,
+            "filename": "image02_original.jpg"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 3,
+            "angle_id": 3,
+            "filename": "image03_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 4,
+            "angle_id": 4,
+            "filename": "image04_original.jpg"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 5,
+            "angle_id": 5,
+            "filename": "image05_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 6,
+            "angle_id": 6,
+            "filename": "image06_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 7,
+            "angle_id": 7,
+            "filename": "image07_original.jpg"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 8,
+            "angle_id": 8,
+            "filename": "image08_original.jpg"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 9,
+            "angle_id": 9,
+            "filename": "image09_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 10,
+            "angle_id": 10,
+            "filename": "image10_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 11,
+            "angle_id": 11,
+            "filename": "image11_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 12,
+            "angle_id": 12,
+            "filename": "image12_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 13,
+            "angle_id": 13,
+            "filename": "image13_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 14,
+            "angle_id": 14,
+            "filename": "image14_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 15,
+            "angle_id": 15,
+            "filename": "image15_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 16,
+            "angle_id": 16,
+            "filename": "image16_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 17,
+            "angle_id": 17,
+            "filename": "image17_original.png"
+        },
+        {
+            "catalogue_id": 1020,
+            "id": 20,
+            "angle_id": 20,
+            "filename": "image20_original.jpg"
+        },
+                {
+            "catalogue_id": 1020,
+            "id": 21,
+            "angle_id": 21,
+            "filename": "image21_original.jpg"
+        },
+                {
+            "catalogue_id": 1020,
+            "id": 22,
+            "angle_id": 22,
+            "filename": "image22_original.jpg"
+        },
+                {
+            "catalogue_id": 1020,
+            "id": 23,
+            "angle_id": 23,
+            "filename": "image23_original.jpg"
+        },
+                {
+            "catalogue_id": 1020,
+            "id": 24,
+            "angle_id": 24,
+            "filename": "image24_original.jpg"
+        },
+                        {
+            "catalogue_id": 1020,
+            "id": 25,
+            "angle_id": 25,
+            "filename": "image25_original.jpg"
+        },
+                        {
+            "catalogue_id": 1020,
+            "id": 26,
+            "angle_id": 26,
+            "filename": "image26_original.jpg"
+        },
+                        {
+            "catalogue_id": 1020,
+            "id": 27,
+            "angle_id": 27,
+            "filename": "image27_original.jpg"
+        },
+                        {
+            "catalogue_id": 1020,
+            "id": 28,
+            "angle_id": 28,
+            "filename": "image28_original.jpg"
+        }
+    ]
+}
+
+
+
+-------------------------
+
+Core Libraries
+openai==1.31.1
+Provides access to OpenAI's models, such as GPT-3, GPT-4, and DALL·E. Enables easy integration for natural language processing and other AI tasks.
+cloudinary==1.37.0
+SDK for Cloudinary, a cloud-based media management service. Handles uploading, transforming, and delivering images and videos efficiently.
+Machine Learning & Vision
+ultralytics==8.2.50
+A Python package for the YOLO (You Only Look Once) family of models, used for object detection, tracking, and segmentation.
+hydra-core>=1.2.0
+A configuration management framework for Python applications, enabling dynamic configurations and hierarchical parameter management.
+torch>=1.7.0
+PyTorch, a popular deep learning framework for creating and training neural networks. Provides GPU acceleration and dynamic computation graphs.
+torchvision>=0.8.1
+A companion library to PyTorch. Offers image processing utilities, pre-trained models, and datasets.
+rembg
+A tool for removing image backgrounds using AI-based segmentation.
+onnxruntime
+A runtime for ONNX models, enabling fast inference across multiple platforms.
+Scientific Computing & Visualization
+numpy
+Fundamental library for numerical computing. Provides support for arrays, matrices, and advanced mathematical functions.
+scipy>=1.4.1
+A scientific computing library building on NumPy. Offers advanced algorithms for optimization, integration, and statistics.
+matplotlib>=3.2.2
+A versatile plotting library for creating static, interactive, and animated visualizations in Python.
+seaborn>=0.11.0
+Built on Matplotlib, used for creating statistically informative plots and visualizations.
+pandas>=1.1.4
+A data manipulation and analysis library. Provides data structures like DataFrames for managing tabular data.
+tqdm>=4.64.0
+A library for creating progress bars in Python scripts, often used in data processing and training loops.
+System Utilities
+ipython
+An interactive shell for Python with features like auto-completion and rich media support.
+psutil
+Provides information on system utilization, such as CPU, memory, and disk usage.
+thop>=0.1.1
+Tool for computing the FLOPs (floating-point operations per second) of PyTorch models, useful for model optimization.
+GitPython>=3.1.24
+A Python library to interact with Git repositories programmatically.
+Logging
+tensorboard>=2.4.1
+A tool for visualizing machine learning model metrics, such as loss, accuracy, and graphs.
+Web Frameworks & APIs
+Flask
+A lightweight web framework for building APIs and web applications in Python.
+flask-cors
+An extension for Flask to handle Cross-Origin Resource Sharing (CORS), allowing secure API requests from browsers.
+python-dotenv
+Loads environment variables from .env files for configuration management.
+gunicorn
+A production-level WSGI HTTP server for running Python web applications.
+Web Scraping
+scraper
+Likely used for web scraping tasks, though its exact purpose may depend on the implementation.
+requests
+A popular library for making HTTP requests in Python. Supports GET, POST, and other HTTP methods.
+Media Processing
+Pillow
+A fork of the Python Imaging Library (PIL) for image processing tasks like resizing, filtering, and format conversion.
+opencv-python
+A library for computer vision tasks, including image/video processing, object detection, and machine learning integration.
+AWS Integration
+boto3
+AWS SDK for Python, used for interacting with AWS services like S3, EC2, and DynamoDB.
+Time Utilities
+pytz
+A library for working with time zones in Python, enabling conversions between different time zones.
+
+
+
+German request data:
+
+{'id': 121, 'vehicle_id': 121, 'billing_id': 296, 'features': [{'catalogue_id': 121, 'id': 976, 'feature_id': 1, 'value': 'true', 'feature': {'id': 1, 'name': 'Cutting', 'description': 'Cutting', 'type': 'Processing', 'binds': None, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 977, 'feature_id': 2, 'value': 'true', 'feature': {'id': 2, 'name': 'License Plate Blur', 'description': 'License Plate Blur', 'type': 'Processing', 'binds': 3, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 978, 'feature_id': 3, 'value': 'false', 'feature': {'id': 3, 'name': 'License Plate Image', 'description': 'License Plate Image', 'type': 'Processing', 'binds': 2, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 979, 'feature_id': 4, 'value': 'true', 'feature': {'id': 4, 'name': 'Polishing', 'description': 'Polishing', 'type': 'Processing', 'binds': None, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 980, 'feature_id': 5, 'value': 'true', 'feature': {'id': 5, 'name': 'Rim Polishing', 'description': 'Rim Polishing', 'type': 'Processing', 'binds': None, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 981, 'feature_id': 6, 'value': 'false', 'feature': {'id': 6, 'name': 'Reflective Floor', 'description': 'Reflective Floor', 'type': 'Processing', 'binds': 7, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 982, 'feature_id': 7, 'value': 'true', 'feature': {'id': 7, 'name': 'Car Reflection', 'description': 'Car Reflection', 'type': 'Processing', 'binds': 6, 'cost': '1.00'}}, {'catalogue_id': 121, 'id': 983, 'feature_id': 8, 'value': 'false', 'feature': {'id': 8, 'name': 'Platform 360', 'description': 'Platform 360', 'type': 'Processing', 'binds': None, 'cost': '1.00'}}], 'uploads': [{'catalogue_id': 121, 'id': 876, 'angle_id': 7, 'filename': 'image_1739528038564_original.jpg', 'angle': {'id': 7, 'name': 'Rear from Right', 'description': 'Rear from Right', 'type': 'Exterior', 'cost': '1.00'}, 'user_id': 12, 'billing_id': 296}, {'catalogue_id': 121, 'id': 879, 'angle_id': 21, 'filename': 'image_1739528101175_original.jpg', 'angle': {'id': 21, 'name': 'Steering Wheel', 'description': 'Steering Wheel', 'type': 'Interior', 'cost': '1.00'}, 'user_id': 12, 'billing_id': 296}, {'catalogue_id': 121, 'id': 884, 'angle_id': 26, 'filename': 'image_1739528196346_original.jpg', 'angle': {'id': 26, 'name': 'Back Seat from Right', 'description': 'Back Seat from Right', 'type': 'Interior', 'cost': '1.00'}, 'user_id': 12, 'billing_id': 296}], 'vehicle': {'id': 121, 'user_id': 12, 'user': {'id': 12, 'user_presets': [{'user_id': 12, 'id': 87, 'name': 'Default Preset', 'description': 'Automatically generated preset with default angles, features, and settings.', 'status': 1, 'preset_settings': [{'id': 764, 'user_preset_id': 87, 'setting_id': 1, 'value': 'full_crop', 'setting': {'id': 1, 'name': 'Default Crop', 'description': 'Default Crop', 'type': 'Background Setup'}}, {'id': 765, 'user_preset_id': 87, 'setting_id': 2, 'value': 'photo_box', 'setting': {'id': 2, 'name': 'Background Type', 'description': 'Background Type', 'type': 'Background Setup'}}, {'id': 766, 'user_preset_id': 87, 'setting_id': 3, 'value': 'system/defaults/bg_type/photo_box/photo_box_1.png', 'setting': {'id': 3, 'name': 'Default Background', 'description': 'Default Background', 'type': 'Background Setup'}}, {'id': 767, 'user_preset_id': 87, 'setting_id': 4, 'value': 'user/ojaJpMg5qY74ldAwkV1y/defaults/logo/Ford-Logo-1976.png', 'setting': {'id': 4, 'name': 'Default Logo', 'description': 'Default Logo', 'type': 'Processing'}}, {'id': 768, 'user_preset_id': 87, 'setting_id': 5, 'value': 'user/ojaJpMg5qY74ldAwkV1y/defaults/license_plate_image/lc1.jpg', 'setting': {'id': 5, 'name': 'License Plate Image', 'description': 'License Plate Image', 'type': 'Processing'}}, {'id': 769, 'user_preset_id': 87, 'setting_id': 6, 'value': 'full_crop', 'setting': {'id': 6, 'name': 'Interior Crop Type', 'description': 'Interior Crop Type', 'type': 'Processing'}}, {'id': 770, 'user_preset_id': 87, 'setting_id': 7, 'value': 'medium_blur', 'setting': {'id': 7, 'name': 'Blur', 'description': 'Blur', 'type': 'Processing'}}, {'id': 771, 'user_preset_id': 87, 'setting_id': 9, 'value': 'off', 'setting': {'id': 9, 'name': 'Camera Sensor Sensitivity', 'description': 'Camera Sensor Sensitivity', 'type': 'Processing'}}]}], 'user_settings': [{'user_id': 12, 'setting_id': 3, 'value': 'system/defaults/bg_type/photo_box/photo_box_2.png', 'setting': {'id': 3, 'name': 'Default Background', 'description': 'Default Background', 'type': 'Background Setup'}}, {'user_id': 12, 'setting_id': 2, 'value': 'photo_box', 'setting': {'id': 2, 'name': 'Background Type', 'description': 'Background Type', 'type': 'Background Setup'}}, {'user_id': 12, 'setting_id': 5, 'value': 'user/ZL8ovka5jre4KJg6bPyY/defaults/license_plate_image/af6d6cfd-ed9b-4791-95a6-d2d9ff1fd46d.png', 'setting': {'id': 5, 'name': 'License Plate Image', 'description': 'License Plate Image', 'type': 'Processing'}}, {'user_id': 12, 'setting_id': 4, 'value': 'user/ZL8ovka5jre4KJg6bPyY/defaults/logo/78db1e4d-60ff-4041-8888-4cb2b4852aa4-removebg-preview.png', 'setting': {'id': 4, 'name': 'Default Logo', 'description': 'Default Logo', 'type': 'Processing'}}]}}}

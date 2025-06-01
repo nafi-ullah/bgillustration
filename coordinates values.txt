@@ -1,0 +1,39 @@
+normal:
+        normalCoordinates = {
+            "floor_left_top": (),
+            "floor_left_bottom": (),
+            "floor_right_bottom": (),
+            "floor_right_top": (),
+            "rwall_top_left": (),
+            "rwall_right_bottom": (),
+            "rwall_top_right": (),
+            "lwall_left_top": (),
+            "lwall_left_bottom":(),
+            "canvas_middle_ref": (),
+            "ceiling_top": ()
+        }
+        return normalCoordinates
+
+
+floor coordinates: [(-2702, 1366), (800, 2500), (3000, 1037), (1253, 773)] 
+floor_coordinates = [floor_left_top, floor_left_bottom, floor_right_bottom, floor_right_top]
+ left wall coordinates: [(1253, 130), (0, 0), (0, 962), (1253, 773)] 
+ right wall coordinates [(1253, 130), (1253, 773), (1920, 873), (1920, 29)] 
+ ceiling coordinates [(0, 0), (1253, 130), (1920, 29), (1920, -700)]
+ 
+         floor_coordinates = [floor_left_top, floor_left_bottom, floor_right_bottom, floor_right_top]
+        left_wall_coordinates = [rwall_top_left, lwall_left_top, lwall_left_bottom, canvas_middle_ref]
+        right_wall_coordinates = [rwall_top_left, canvas_middle_ref, rwall_right_bottom, rwall_top_right]
+        ceiling_coordinates = [lwall_left_top, rwall_top_left, rwall_top_right, ceiling_top]
+        
+ reverse:
+ 
+         floor_coordinates = [floor_left_top, floor_left_bottom, floor_right_bottom, floor_right_top]
+        left_wall_coordinates = [rwall_top_left, lwall_left_top, lwall_left_bottom, canvas_middle_ref]
+        right_wall_coordinates = [rwall_top_left, canvas_middle_ref, rwall_right_bottom, rwall_top_right]
+        ceiling_coordinates = [lwall_left_top, rwall_top_left, rwall_top_right, ceiling_top]
+ 
+ floor coordinates: [(-1283, 1030), (615, 3120), (3220, 1139), (615, 744)] 
+ left wall coordinates: [(615, 100), (0, 6), (0, 837), (615, 744)] 
+ right wall coordinates [(615, 100), (615, 744), (1920, 942), (1920, 0)] 
+ ceiling coordinates [(0, 6), (615, 100), (1920, 0), (0, -700)]
