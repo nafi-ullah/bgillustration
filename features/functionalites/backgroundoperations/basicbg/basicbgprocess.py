@@ -176,18 +176,18 @@ def process_topbottom_image_with_canvas(new_image: BytesIO, transparent_image: B
         return {}
     
 
-def add_basic_bg(wallImagesBytes, logo_bytes: BytesIO = None, new_image: BytesIO = None, transparent_image: BytesIO = None, logo_position: str = None) -> dict:
+def add_basic_bg(wallImagesBytes, floor_coordinates, wall_coordinates, logo_bytes: BytesIO = None, new_image: BytesIO = None, transparent_image: BytesIO = None, logo_position: str = None) -> dict:
     print("Got the image in add basic bg")
     try:
-        canvases = process_image_with_canvas(new_image, transparent_image)
+        # canvases = process_image_with_canvas(new_image, transparent_image)
 
-        canvasgreen = canvases['canvasgreen']
-        canvastransparent = canvases['canvastransparent']
+        # canvasgreen = canvases['canvasgreen']
+        # canvastransparent = canvases['canvastransparent']
 
-        get_points = wheel_coordinate_for_wall(canvasgreen)
+        # get_points = wheel_coordinate_for_wall(canvasgreen)
 
-        red_dot_point = (get_points['top_x'], get_points['top_y'])  
-        floor_coordinates, wall_coordinates = get_basic_wall_coordinates(get_points)
+        # red_dot_point = (get_points['top_x'], get_points['top_y'])  
+        # floor_coordinates, wall_coordinates = get_basic_wall_coordinates(get_points)
 
         print(f"wall coordinates floor {floor_coordinates} wall {wall_coordinates}")
         getbg = addBasicBackgroundInitiate(
@@ -197,7 +197,7 @@ def add_basic_bg(wallImagesBytes, logo_bytes: BytesIO = None, new_image: BytesIO
             wall_coordinates=wall_coordinates, 
             logo_position=logo_position)
 
-        main_image = final_combine_bg(canvastransparent, getbg)
+        main_image = getbg # final_combine_bg(canvastransparent, getbg)
 
         if isinstance(main_image, BytesIO):
             img = Image.open(main_image)
