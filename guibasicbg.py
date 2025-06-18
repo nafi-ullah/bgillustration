@@ -8,8 +8,9 @@ from coordinates import getCoordinates, getCarParameters, padding_car, combine_c
 from basicCoordinates import getBasicCoordinates
 from features.functionalites.backgroundoperations.addbackground.addwallinitiate import addBackgroundInitiate
 from features.functionalites.backgroundoperations.basicbg.basicbgprocess import add_basic_bg
+import datetime
 # Load vehicle image once
-with open("assets/cars/image2_original.png", "rb") as f:
+with open("assets/cars/topleftrear10.png", "rb") as f:
     detected_vehicle = BytesIO(f.read())
 
 class GUI:
@@ -175,7 +176,8 @@ class GUI:
             if hasattr(self, "last_generated_image") and self.last_generated_image is not None:
                 output_dir = "./outputs/backgrounds"
                 os.makedirs(output_dir, exist_ok=True)
-                output_path = os.path.join(output_dir, "background_output.png")
+                timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+                output_path = os.path.join(output_dir, f"car_blue_10_{timestamp}.png")
                 self.last_generated_image.save(output_path)
             messagebox.showinfo("Saved", "Values saved to ./currentValues.txt and image saved to ./output/background_output.png")
         except Exception as e:

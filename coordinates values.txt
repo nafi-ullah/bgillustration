@@ -37,3 +37,23 @@ floor_coordinates = [floor_left_top, floor_left_bottom, floor_right_bottom, floo
  left wall coordinates: [(615, 100), (0, 6), (0, 837), (615, 744)] 
  right wall coordinates [(615, 100), (615, 744), (1920, 942), (1920, 0)] 
  ceiling coordinates [(0, 6), (615, 100), (1920, 0), (0, -700)]
+
+
+
+ angle 9 basic: (top left front view)
+
+ floor_left_top: (0, 1020)
+floor_left_bottom: (-665, 2765)
+floor_right_bottom: (2585, 1765)
+floor_right_top: (1920, 320)
+wall_right_top: (1920, -720)
+wall_left_top: (0, -720)
+
+
+angle_id: 10 (top left rear view)
+floor_left_top: (0, 320)
+floor_left_bottom: (-665, 1765)
+floor_right_bottom: (2585, 1765)
+floor_right_top: (1920, 920)
+wall_right_top: (1920, -720)
+wall_left_top: (0, -720)

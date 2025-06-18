@@ -42,12 +42,12 @@ def getBasicCoordinates(angle, car_image):
         return normalCoordinates
     elif angle == "9" or angle == "12":  # top view normal
         normalCoordinates = {
-            "floor_left_top": (-2702, 1366),
-            "floor_left_bottom": (800, 2500),
-            "floor_right_bottom": (3000, 1037),
-            "floor_right_top": (3000, 1037),
-            "wall_right_top": (3000, 1037),
-            "wall_left_top": (3000, 1037),
+            "floor_left_top": (0, 1020),
+            "floor_left_bottom": (-665, 2765),
+            "floor_right_bottom": (2585, 1765),
+            "floor_right_top": (1920, 320),
+            "wall_right_top": (1920, -720),
+            "wall_left_top": (0, -720)
         }
 
         return normalCoordinates
